@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootbeersBackend", "LootbeersBackend\LootbeersBackend.csproj", "{9BCC5131-01BB-449C-9F34-83B714C3DC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootbeersBackend.Tests", "LootbeersBackend.Tests\LootbeersBackend.Tests.csproj", "{4C4CFFF6-11EF-4B34-803E-1025A79F62A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootbeersBackend.Anchorgen", "LootbeersBackend.Anchorgen\LootbeersBackend.Anchorgen.csproj", "{FC581A41-B0DC-47B2-8AF0-64C67B3E095E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BCC5131-01BB-449C-9F34-83B714C3DC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCC5131-01BB-449C-9F34-83B714C3DC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCC5131-01BB-449C-9F34-83B714C3DC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCC5131-01BB-449C-9F34-83B714C3DC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4CFFF6-11EF-4B34-803E-1025A79F62A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4CFFF6-11EF-4B34-803E-1025A79F62A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4CFFF6-11EF-4B34-803E-1025A79F62A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4CFFF6-11EF-4B34-803E-1025A79F62A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC581A41-B0DC-47B2-8AF0-64C67B3E095E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC581A41-B0DC-47B2-8AF0-64C67B3E095E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC581A41-B0DC-47B2-8AF0-64C67B3E095E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC581A41-B0DC-47B2-8AF0-64C67B3E095E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

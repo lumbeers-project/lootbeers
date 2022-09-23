@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <NoWarn></NoWarn>
+    </PropertyGroup>
+
+    <!--    <ItemGroup>-->
+    <!--      <AdditionalFiles Include="Idl\lootbox_opener.json">-->
+    <!--        <Address>2qPL6aunS5v636TymUKmQAG2iW6gn7q94vShQb51iyMW</Address>-->
+    <!--        <AnchorGenerate>true</AnchorGenerate>-->
+    <!--      </AdditionalFiles>-->
+    <!--    </ItemGroup>-->
+
+    <ItemGroup>
+        <Folder Include="Generated"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Solnet.Anchor.SourceGenerator" Version="0.2.8"/>
+        <PackageReference Include="Solnet.Programs" Version="6.1.0"/>
+        <PackageReference Include="Solnet.Rpc" Version="6.1.0"/>
+    </ItemGroup>
+
+    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+        <Exec Command="dotnet anchorgen -i Idl/lootbox_opener.json -o Generated/LootboxOpener.cs"/>
+    </Target>
+</Project>

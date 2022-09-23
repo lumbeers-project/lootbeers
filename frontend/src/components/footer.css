@@ -1,0 +1,25 @@
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer .socialLinks {
+    left:0;
+    right: 0;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.footer .socialLinks .header_a img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+}
